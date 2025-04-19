@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "rf_statistics"
+version = "0.3.0"
+description = "Calculate RF statistics and related descriptors."
+authors = [
+    "Andreas Tosstorff <andreas.tosstorff@roche.com>",
+    "Jason C. Cole",
+    "Robin Taylor",
+    "Bernd Kuhn, <bernd.kuhn@roche.com>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = ">=3.8.1"
+seaborn = ">=0.13.0"
+pytest = ">=7.4.3"
+pathos = ">=0.3.1"
+fastparquet = ">=2023.10.1"
+pyarrow = ">=14.0.1"
+pre-commit = ">=3.6.0"
+bottleneck = ">=1.3.7"
+tqdm = ">=4.66.5"
+black = ">=24.10.0"
+yamllint = ">=1.35.1"
+pytest-cov = ">=6.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pandas = ">=2.2.0"
+rdkit = ">=2023.9.1"
+numpy = ">=1.26.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+export_contacts_surfaces = "rf_statistics.database_utils.export_contacts_surfaces:main"

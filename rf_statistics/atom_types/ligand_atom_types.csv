@@ -1,0 +1,27 @@
+MOE_SMARTS	MOE_SMARTS_index	RDKit_SMARTS	RDKit_SMARTS_index	ligand_atom_type	contact_atom	bound_atoms	env	environment_score	pi_atom	combined_occurrences_filtered	ionic_pos	ionic_neg	multipolar_pos	multipolar_neg	hbond_don	hbond_acc	hbond_classic	hbond_weak	halogen_don	halogen_acc	pi	hydrophobic	ionic_alpha_max	ionic_alpha_min	ionic_h_max	ionic_h_min	multipolar_alpha_max	multipolar_alpha_min	multipolar_h_max	multipolar_h_min	hbond_alpha_max	hbond_alpha_min	hbond_h_max	hbond_h_min	halogen_bond_alpha_max	halogen_bond_alpha_min	halogen_bond_h_max	halogen_bond_h_min	pi_alpha_max	pi_alpha_min	pi_h_max	pi_h_min	hydrophobic_alpha_max	hydrophobic_alpha_min	hydrophobic_h_max	hydrophobic_h_min	combined_C_ali_apol_occurrences_filtered
+[cQ2]1[nQ2]ccc[nQ2]1	0	[cd2]1[nd2H0]ccc[nd2]1	0	carbon_aromatic_pyrimidine_2	C	N_N	0	6.692307692	1	1534	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	1581
+[#6]-[SQ4](~[OQ1])(~[OQ1])-[*]	2	[#6]-[Sd4](~[Od1])(~[Od1])-[*]	2	oxygen_sulfonyl	O	S	2	8.865384615	0	2115	0	0	0	1	0	1	1	0	0	0	0	1					180.0	0.0			180.0	0.0											180.0	0.0			2384
+[cQ2]1[nQ2]cccn1	1	[cd2]1[nd2]cccn1	1	nitrogen_pyrimidine	N	C	0	6.615384615	1	1602	0	0	0	1	0	1	1	0	0	0	1	1					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0				0.0	180.0	0.0	4.0	0.0	180.0	0.0	4.0	1.5	1635
+[cQ2]1[nQ2][cQ2]ccc1	1	[cd2]1[nd2H0][cd2]ccc1	1	nitrogen_aromatic_pyridine	N	C	0	6.615384615	1	681	0	0	0	1	0	1	1	0	0	0	1	1					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0				0.0	180.0	0.0	4.0	0.0	180.0	0.0	4.0	1.5	731
+[c]-[CQ1]	1	[c]-[C&d1]	1	carbon_alkyl_terminal_polarized_aryl	C	C	1	2.480769231	0	2687	0	0	0	0	1	0	0	1	0	0	0	1									180.0	0.0											180.0	0.0			2747
+[#6]-[C](=[O])-[NQ2]-[#6]	2	[#6][#6](=[O])-[#7d2]-[#6]	2	oxygen_amide_sec	O	C	2	6.096153846	1	6195	0	0	0	1	0	1	1	0	0	0	1	1					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0				0.0	180.0	0.0	4.0	0.0	180.0	0.0	4.0	1.5	7179
+[CX4]-[C](=[O])-[NQ2]-!@[CX4]	2	[C^3]-[C](=[O])-[N&d2]-!@[C^3]	2	oxygen_amide_sec_acyclic_Csp3_Csp3	O	C	3	5.961538462	1	2649	0	0	0	1	0	1	1	0	0	0	1	1					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0				0.0	180.0	0.0	4.0	0.0	180.0	0.0	4.0	1.5	3374
+[C](=[O])-[NQ2]-[#6!$([#6]=O)]	2	[#6](=[O])-[#7d2]-[#6!$([#6]=O)]	2	nitrogen_amide_sec	N	C	2	5.865384615	1	5378	0	0	0	1	1	0	1	0	0	0	1	1					180.0	0.0	4.0	0.0	180.0	0.0	1.5	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	1.5	7370
+[C;!$([C]=[O])]-[NQ1]	1	[C;!$([C]=[O])]-[N&d1]	1	nitrogen_amine_prim	N	C	2	3.153846154	0	2879	1	0	1	0	1	0	1	0	0	0	0	0	180.0	0.0	4.0	0.0	180.0	0.0			180.0	0.0															3434
+[#7,#8,#9]-[CQ1]	1	[#7,#8,#9]-[C&d1]	1	carbon_alkyl_terminal_polarized_N,O,F	C	N_O_F	1	2.788461538	0	4367	0	0	0	0	1	0	0	1	0	0	0	1									180.0	0.0											180.0	0.0			4302
+[C;!$([C,S,P]~[#8X1,#9])]-[CQ1]	1	[C;!$([C,S,P]~[#8^2d1,#9])]-[C&d1]	1	carbon_alkyl_terminal_unpolarized	C	C	2	2.653846154	0	7311	0	0	0	0	0	0	0	0	0	0	0	1																					180.0	0.0			7908
+[c]-[Cl]	1	[c]-[Cl]	1	chlorine_aryl	Cl	C	1	2.403846154	0	2207	0	0	0	0	0	0	0	0	1	0	0	1													45.0	0.0							180.0	0.0			2090
+[c]-[F]	1	[c]-[F]	1	fluorine_aryl	F	C	1	2.403846154	0	1607	0	0	0	1	0	1	0	1	0	0	0	1					180.0	0.0	4.0	0.0	180.0	0.0											180.0	0.0			1607
+[cQ2]1[nQ2][cQ2]cc[cQ2]1	0	[cd2]1[nd2H0][cd2]cc[cd2]1	0	carbon_aromatic_pyridine_2	C	C_N	0	6.692307692	1	589	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	628
+[s]	0	[s]	0	sulfur_aromatic	S	ANY	0	1.076923077	1	1222	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	1.5				1.5	180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	1301
+[#6]-[SQ4](~[O])(~[O])-[#7]	2	[#6]-[Sd4](=[O])(=[O])-[#7]	2	oxygen_sulfonamide	O	S	3	6.615384615	0	824	0	0	0	1	0	1	1	0	0	0	0	0					180.0	0.0			180.0	0.0															938
+c1[nQ2][cQ2][cQ2][cQ2]c1	3	c1[nd2H0][cd2][cd2][cd2]c1	3	carbon_aromatic_pyridine_3	C	C_N	0	6.769230769	1	630	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	705
+c1[nQ2][cQ2]cc[nQ2]1	2	c1[nd2H0][cd2]cc[nd2H0]1	2	carbon_aromatic_pyrimidine_4	C	N_N	0	6.692307692	1	602	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	597
+[C]#[N]	1	[C]#[N]	1	nitrogen_nitrile	N	C	1	2.403846154	0	671	0	0	0	1	0	1	1	0	0	0	1	0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0					684
+[s]1:[c]:[c]:[c]:[c]:1	0	[s]1:[c]:[c]:[c]:[c]:1	0	sulfur_thiophene	S	C	2	5.634615385	1	621	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	1.5				1.5	180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	661
+[s]1:[c]:[n]:[c]:[c]:1	0	[s]1:[c]:[n]:[c]:[c]:1	0	sulfur_thiazole	S	C	2	5.634615385	1	540	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	1.5				1.5	180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	577
+[c]-[Br]	1	[c]-[Br]	1	bromine_aryl	Br	C	1	2.403846154	0	502	0	0	0	0	0	0	0	0	1	0	0	1													45.0	0.0							180.0	0.0			505
+c1[nQ2]c[cQ2]c[nQ2]1	3	c1[nd2H0]c[cd2]c[nd2H0]1	3	carbon_aromatic_pyrimidine_5	C	N_N	0	6.692307692	1	357	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	377
+[#6]-[SQ4](~[OQ1])(~[OQ1])-[#6]	2	[#6]-[Sd4](~[Od1])(~[Od1])-[#6]	2	oxygen_sulfone	O	S	3	8.019230769	0	315	0	0	0	1	0	1	1	0	0	0	0	0					180.0	0.0			180.0	0.0															324
+c1[nQ2]c[cQ2][cQ2][cQ2]1	4	c1[nd2H0]c[cd2][cd2][cd2]1	4	carbon_aromatic_pyridine_4	C	C_N	0	6.769230769	1	260	0	0	0	0	0	1	0	1	0	0	1	1									180.0	0.0	4.0	0.0					180.0	0.0	4.0	0.0	180.0	0.0	4.0	0.0	273
+[c]-[I]	1	[c]-[I]	1	iodine_aryl	I	C	1	2.403846154	0	100	0	0	0	0	0	0	0	0	1	0	0	1													45.0	0.0							180.0	0.0			97

@@ -1,0 +1,11 @@
+---
+name: rf-statistics
+channels:
+  - conda-forge
+  - https://conda.ccdc.cam.ac.uk
+dependencies:
+  - python=3.11
+  - csd-python-api>=3.3.0
+  - pip
+  - pip:
+      - poetry
